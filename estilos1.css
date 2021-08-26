@@ -3,9 +3,34 @@ body{
 }
 
 .titulo{
-    width: 50%;
-    background-color: rgb(255, 38, 38);
-    height: 50%;
-    padding: 40%;
-    margin: 30%;
+    display: flex;
+    justify-content: center;
+    width: 99%;
+    height: 100%;
+    background-color: #72e0b6;
+}
+
+.texto{
+    display: center;
+    justify-content: center;
+    width: 60%;
+    height: 60%;
+    margin-top: 5%;
+    margin-left: 2%;
+    flex-direction: flex-start;
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+
+.imagem1{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    flex-direction: flex-end;
+    align-self: flex-end;
 }
