@@ -1,3 +1,11 @@
 body{
     width: 100%;
 }
+
+.titulo{
+    width: 50%;
+    background-color: rgb(255, 38, 38);
+    height: 50%;
+    padding: 40%;
+    margin: 30%;
+}
